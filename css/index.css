@@ -120,4 +120,221 @@ main{
     font-size: 0.8em;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #8d8c8cc5;}
+
+@media (min-width: 769px) and (max-width: 1279px){
+#Qual{
+    text-align: center;
+    font-size: 1.6em;
+    margin: 20px 0 10px 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#email{
+    width: 50%;
+    height: 65px;
+    float: left;
+    margin-left: 25%;
+    border: 0;
+    background-color: #ebe8e8c5;
+    border-radius: 8px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    text-indent: 20px;
+    font-size: 1.2em;
+    outline: none;
+}
+#bt-continuar{
+    width: 50%;
+    float: left;
+    height: 65px;
+    margin-left: 25%;
+    border: 0;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+}
+#bt-Google{
+    background-image: url('../img/google.png');
+    width: 50%;
+    float: left;
+    height: 65px;
+    margin-left: 25%;
+    border: 0;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 2%;
+    background-color: #dedcdcc5;
+    color: rgb(0, 0, 0);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: center;
+}
+#bt-apple{
+    background-image: url('../img/apple.png');
+    width: 50%;
+    float: left;
+    height: 65px;
+    margin-left: 25%;
+    border: 0;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 2%;
+    background-color: #dedcdcc5;
+    color: rgb(0, 0, 0);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position-x: 96px;
+    background-position-y: center;
+}
+#Ou{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#8d8c8cc5 ;
+}
+#ou{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#8d8c8cc5 ;
+}
+#ao{
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 3%;
+    font-size: 1.2em;
+}
+}
+@media only screen  and (min-width: 1280px){
+    header{
+        color: white;
+        background-color: rgb(0, 0, 0);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        padding: 1%;
+    }
+    p3{
+        margin-left: 50px;
+        font-size: 1.6em;
+    }
+    #Qual{
+        width: 20%;
+        text-align: left;
+        font-size: 1.4em;
+        margin-top: 6%;
+        margin-left: 39%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    }
+    #email{
+        width: 23%;
+        height: 50px;
+        float: left;
+        margin-left: 38%;
+        border: 0;
+        background-color: #ebe8e8c5;
+        border-radius: 8px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #fff;
+        text-indent: 20px;
+        font-size: 1.2em;
+        outline: none;
+    }
+    #bt-continuar{
+        width: 23%;
+        float: left;
+        height: 50px;
+        margin-left: 38%;
+        border: 0;
+        border-radius: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+    }
+    #bt-Google{
+        background-image: url('../img/google.png');
+        width: 23%;
+        float: left;
+        height: 50px;
+        margin-left: 38%;
+        border: 0;
+        border-radius: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-top: 2%;
+        background-color: #dedcdcc5;
+        color: rgb(0, 0, 0);
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-position-x: 50px;
+        background-position-y: center;
+    }
+    #bt-apple{
+        background-image: url('../img/apple.png');
+        width: 23%;
+        float: left;
+        height: 50px;
+        margin-left: 38%;
+        border: 0;
+        border-radius: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-top: 10px;
+        background-color: #dedcdcc5;
+        color: rgb(0, 0, 0);
+        background-size: 6%;
+        background-repeat: no-repeat;
+        background-position-x: 54px;
+        background-position-y: center;
+    }
+    #Ou{
+        float: left;
+        width: 40%;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 1em;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color:#696868c5 ;
+        margin-left: 30%;
+    }
+    #ou{
+        float: left;
+        width: 40%;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 1em;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color:#696868c5 ;
+        margin-left: 30%;
+    }
+    #ao{
+        float: left;
+        width: 25%;
+        text-align: left;
+        margin-top: 2%;
+        font-size: 0.9em;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color:#474646c5 ;
+        margin-left: 38%;
+    }
+    
 }
